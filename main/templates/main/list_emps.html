@@ -1,0 +1,45 @@
+{% extends 'main/base.html' %}
+
+{% block title %} Список сотрудников {% endblock %}
+
+{% block content %}
+<div class="classPad">
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col" colspan="2">ФИО</th>
+        <th scope="col">Должность</th>
+        <th scope="col">Телефон</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td colspan="2">Виноградов Дмитрий Александрович</td>
+        <td>Начальник штаба</td>
+        <td>+64 (458) 494-87-95</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td colspan="2">Крылов Али Александрович</td>
+        <td>Фрезеровщик</td>
+        <td>+507 (696) 285-00-53</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Пономарев Виталий Маркович</td>
+        <td>Прозектор   </td>
+        <td>+220 (444) 364-16-40</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td colspan="2">Фетисова Александра Марковна</td>
+        <td>Промышленный альпинист</td>
+        <td>+691 (469) 279-41-49</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}
